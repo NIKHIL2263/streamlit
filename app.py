@@ -1,12 +1,13 @@
 import streamlit as st
-def foo(a,b):
-    return a+b
+def foo(a):
+    #return a+b
+    return "hello"+a
 st.title("add")
-a=st.number_input("input a")
-b=st.number_input("input b")
+a=st.text_input("input your name")
+#b=st.number_input("input b")
 
 
 
-
-answer =foo(a,b)
+answer =foo(a)
+#answer =foo(a,b)
 st.write(answer)

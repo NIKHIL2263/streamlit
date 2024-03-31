@@ -5,3 +5,4 @@ st.title("add")
 a=st.number_input()
 b=st.number_input()
 
+st.write(foo(a,b))

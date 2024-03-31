@@ -8,6 +8,6 @@ a=st.text_input("input your name")
 
 
 
-answer =foo(a)
+#answer =foo(a)
 #answer =foo(a,b)
-st.write(answer)
+st.write(foo(a))

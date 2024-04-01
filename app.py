@@ -1,5 +1,5 @@
 import streamlit as st
-def foo(a):
+def foo(a=None):
     #return a+b
     return ("hello  "+a)
 st.title("Hello")

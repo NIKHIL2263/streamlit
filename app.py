@@ -1,17 +1,17 @@
 import streamlit as st
-def foo(a,b,c):
+def foo(a):
     #return a+b
-    a=max(a,b,c)
+    a=max(a)
     return ("Max is  "+a)
 st.title("MaxOfThree")
 #a=st.text_input("input your name")
 
-b1=st.number_input("input b")
-b2=st.number_input("input b")
-b3=st.number_input("input b")
+l=st.number_input("input 3 comma seperated numbers")
+#b2=st.number_input("input b")
+#b3=st.number_input("input b")
 
 
 
 #answer =foo(a)
 #answer =foo(a,b)
-st.write(foo(b1,b2,b3))
+st.write(foo(l))
